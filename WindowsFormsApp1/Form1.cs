@@ -16,5 +16,10 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button_exe_20200630_Click(object sender, EventArgs e)
+        {
+            Executer.MoveFilesToOld_ByYear();
+        }
     }
 }
